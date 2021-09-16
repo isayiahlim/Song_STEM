@@ -35,7 +35,7 @@ public class Song
 		System.out.println("");
 		System.out.println("");	
 	}
-	//prints out the last two lines of every verse: Star Trekkin' across the universe, ect
+	//prints out the last two lines of every verse: Star Trekkin' across the universe...
 	public static void bottomTwo()
     {
     	System.out.print("Star Trekkin' across the universe, ");
