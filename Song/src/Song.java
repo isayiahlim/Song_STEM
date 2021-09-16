@@ -76,7 +76,7 @@ public class Song
 	public static void wholeVerse()
 	{
 		System.out.print("Ye cannot change the laws of physics, ");
-		System.out.println("laws of physics, laws of physics");
+		System.out.println("laws of physics, laws of physics;");
 		System.out.println("ye cannot change the laws of physics, laws of physics, Jim.");
 		bottomTen();
 	}
