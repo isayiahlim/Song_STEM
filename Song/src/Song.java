@@ -14,33 +14,21 @@ public class Song
 	{
 		//First verse
 		bottomFour();
-		twoSpaces();
 		
 		//Second verse
 		bottomSix();
-		twoSpaces();
-		
+
 		//Third verse
 		bottomEight();
-		twoSpaces();
 		
 		//Fourth verse
 		bottomTen();
-		twoSpaces();
 		
 		//Fifth verse
 		wholeVerse();
-		twoSpaces();
 		
 		//Conclusion
 		bottomTwo();
-	}
-	
-	//prints out two empty lines
-	public static void twoSpaces()
-	{
-		System.out.println("");
-		System.out.println("");	
 	}
 	
 	//prints out the last two lines of every verse: Star Trekkin' across the universe...
@@ -52,12 +40,14 @@ public class Song
     	System.out.println("Only going forward 'cause we can't find reverse.");
     }
 	
-	//prints out the whole first verse (There's Klingons... Star Trekkin...)
+	//prints out the whole first verse (There's Klingons... Star Trekkin...) and two empty spaces
 	public static void bottomFour()
 	{
 		System.out.println("There's Klingons on the starboard bow, starboard bow, starboard bow;");
 		System.out.println("there's Klingons on the starboard bow, starboard bow, Jim.");
 		bottomTwo();
+		System.out.println("");
+		System.out.println("");	
 	}
 	
 	//prints the second verse (It's life, Jim... + First Verse)
